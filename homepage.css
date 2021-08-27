@@ -1,0 +1,58 @@
+html {
+    font-size: 100%;
+}
+body {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#logo-header {
+    height: 1.8rem;
+    margin-top: 1.5rem;
+    margin-left: 28%;
+}
+.localization-container {
+    background-color: rgb(241, 236, 236);
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+.reservation-section {
+    background-color: #f3f2f4;
+    margin-top: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
+}
+.restaurants-section {
+    background-color: # ;
+    padding-bottom: 1rem;
+}
+.restaurants-boxes {
+    background-color: #fff;
+    border-radius: 15px;
+    width: 89%;
+    height: 15.3rem;
+    margin-left: 1.3rem;
+    margin-bottom: 1.3rem;
+    box-shadow: 0px 0px 6px 0px #0000002e;
+    color: rgba(0, 0, 0, 0.92);
+}
+.restaurants-img {
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 11rem;
+    width: 100%;
+}
+.restaurants-names {
+    margin-top: 0.6rem;
+    margin-left: 0.8rem;
+}
+.restaurants-area {
+    margin-top: -1rem;
+    margin-left: 0.8rem;
+}
+.clickable-heart {
+    margin-top: ;
+    margin-left: 88%;
+}

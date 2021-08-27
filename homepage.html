@@ -4,9 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css" />
+    <script src="https://kit.fontawesome.com/6ab33aa063.js" crossorigin="anonymous"></script>
     <title>ohmyfood-Homepage</title>
 </head>
 <body>
-    
+    <header>
+        <img id="logo-header" src="images/logo/ohmyfood.png" alt="Logo de ohmyfood" >
+    </header>
+    <main>
+        <div class="localization-container">
+            <p>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                Paris, Belleville
+            </p>
+        </div>
+        <section class="reservation-section">
+            <h1>Réservez le menu qui vous convient</h1>
+            <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
+            <button id="explore-button">Explorer nos restaurants</button>
+        </section>
+        <section class="functioning-section">
+            <h1>Fonctionnement</h1>
+            <button>
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+                Choissez un restaurant
+            </button>
+            <button>
+                <i class="fa fa-list-ul" aria-hidden="true"></i>
+                Composez votre menu
+            </button>
+            <button>
+
+                Dégustez au restaurant
+            </button>
+        </section>
+        <section class="restaurants-section">
+            <h1>Restaurants</h1>
+            <article class="restaurants-boxes">
+                <img class="restaurants-img" src="images/restaurants/palette.jpg" alt="Photo du restaurant La palette du goût" />
+                <h3 class="restaurants-names">La palette du goût</h3>
+                <p class="restaurants-area">Ménilmontant</p>
+                <i class="fa fa-heart-o clickable-heart" aria-hidden="true"></i>
+            </article>
+            <article class="restaurants-boxes">
+                <img class="restaurants-img" src="images/restaurants/note-enchantée.jpg" alt="Photo du restaurant La palette du goût" />
+                <h3 class="restaurants-names">La note enchantée</h3>
+                <p class="restaurants-area">Charonne</p>
+                <i class="fa fa-heart-o clickable-heart" aria-hidden="true"></i>
+            </article>
+            <article class="restaurants-boxes">
+                <img class="restaurants-img" src="images/restaurants/française.jpg" alt="Photo du restaurant La palette du goût" />
+                <h3 class="restaurants-names">À la française</h3>
+                <p class="restaurants-area">Cité Rouge</p>
+                <i class="fa fa-heart-o clickable-heart" aria-hidden="true"></i>
+            </article>
+            <article class="restaurants-boxes">
+                <img class="restaurants-img" src="images/restaurants/délice.jpg" alt="Photo du restaurant La palette du goût" />
+                <h3 class="restaurants-names">Le délice des sens</h3>
+                <p class="restaurants-area">Folie-Méricourt</p>
+                <i class="fa fa-heart-o clickable-heart" aria-hidden="true"></i>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>ohmyfood</p>
+        <ul>
+            <li>
+                <i class="fa fa-cutlery" aria-hidden="true"></i>
+                Proposer un restaurant
+            </li>
+            <li>
+                <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                Devenir partenaire
+            </li>
+            <li>
+                Mentions légales
+            </li>
+            <li>Contact</li>
+        </ul>
+    </footer>
 </body>
 </html>
